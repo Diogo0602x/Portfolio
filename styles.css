@@ -313,4 +313,5 @@ header{
 .conhecimentos-img-wrapper img {
   object-fit: cover;
   height: 100%;
+  padding-left: 6vh;
 }
