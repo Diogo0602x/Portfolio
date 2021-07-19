@@ -225,6 +225,7 @@ header{
 .social-media i:hover{
   background-color: #686868;
 }
+
 .conhecimentos {
   height: 100%;
   display: grid;
@@ -277,7 +278,7 @@ header{
 .sessao-header h1 {
   font-family: var(--font-primary);
   font-size: 3rem;
-  color: #4b4b4b;
+  color: #000;
   border-bottom: solid 3px #2c2c2c;
   margin-bottom: 1.5rem;
 }
@@ -285,7 +286,7 @@ header{
 .conhecimento-header {
   display: flex;
   align-items: center;
-  color: #4b4b4b;
+  color: #000;
 }
 
 .conhecimento-header i {
@@ -313,5 +314,90 @@ header{
 .conhecimentos-img-wrapper img {
   object-fit: cover;
   height: 100%;
-  padding-left: 6vh;
+}
+
+.projetos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 18rem;
+  height: 25rem;
+  position: relative;
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  border-radius: 0.5rem;
+}
+
+.card-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.card:hover .card-img-wrapper img {
+  opacity: 0.5;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  padding: 2rem;
+  text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+  transition: all 0.3s;
+}
+
+.card-info h2 {
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #eee;
+}
+
+.card-info h3 {
+  font-family: var(--font-action);
+  font-weight: bolder;
+  color: #00ff00;
+  margin-bottom: 2rem;
+}
+
+.card-info p {
+  font-family: var(--font-secundary);
+  color: #eee;
+  font-weight: 400;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: var(--font-action);
+  color: #eee;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+}
+
+.card-info button {
+  width: 8rem;
+  height: 2.5rem;
+}
+
+.card:hover .card-info {
+  bottom: 4rem;
+  opacity: 1;
+  visibility: visible;
 }
