@@ -46,7 +46,7 @@
           <div class="social-media">
               <a href="https://www.facebook.com/Diogo0602/"><i class="fab fa-facebook"></i></a>
               <a href="https://github.com/Diogo0602x"><i class="fab fa-github"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a></div>
+              <a href="https://www.linkedin.com/in/diogo-teixeira-15aab720a/"><i class="fab fa-linkedin"></i></a></div>
           </div>
       </aside>
 
@@ -184,11 +184,11 @@
           <div class="orcamento-wrapper">
             <h1>Faça um orçamento</h1>
             <form>
-              <label for="qtde">Quantidadede de Páginas</label>
+              <label for="qtde">Quantidadede de Páginas :</label>
               <input type="number" min="1" name="qtde" id="qtde">
-              <label for="js">Preciso de um script JS</label>
+              <label for="js">Preciso de um script JS :</label>
               <input type="checkbox" name="js" id="js">
-              <label>Layout</label>
+              <label>Layout :</label>
               <div class="group-layout">
                 <div>
                   <input type="radio" name="layout" id="layout-sim">
@@ -199,9 +199,15 @@
                   <label for="layout-nao">Já tenho um layout</label>
                 </div>
               </div>
-              <label for="prazo">Prazo</label>
-              <input type="range" name="prazo" id="prazo" min="1" max="10">
-              <label id="preco">R$ 0,00</label>
+                <div>
+                  <label for="prazo">Prazo :</label>
+                </div>
+                <div>
+                  <span id="rangeValue">0</span>
+                  <input class="prazo" type="range" name="prazo" value="0" id="prazo" min="1" max="10" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" >                 
+                </div>
+                <label class="preco-text">Preço :</label>
+                <label id="preco">R$ 0,00</label>
               <button class="btn btn-orcamento" type="submit">Enviar</button>
             </form>
           </div>

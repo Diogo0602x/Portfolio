@@ -562,9 +562,46 @@ position: relative;
   padding: 0.3rem;
 }
 
+
+#rangeValue{
+  text-align: center;
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 400;
+}
+
+.prazo{
+  width: 15rem;
+  height: 1.2rem;
+  -webkit-appearance: none;
+  background: #fff;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.prazo::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000;
+  cursor: pointer;
+  box-shadow: -407px 0 0 400px #000;
+}
+
 .btn-orcamento{
   text-transform: uppercase;
   padding: 1rem;
   cursor: pointer;
   grid-column: 2;
+  margin-top: 2rem;
+}
+
+.preco{
+  background-color: red;
+  width: 200%;
+  height: 4rem;
+  display: flex;
 }
