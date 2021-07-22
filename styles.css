@@ -598,10 +598,3 @@ position: relative;
   grid-column: 2;
   margin-top: 2rem;
 }
-
-.preco{
-  background-color: red;
-  width: 200%;
-  height: 4rem;
-  display: flex;
-}
