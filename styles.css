@@ -15,6 +15,10 @@
   --font-action: "Muli", serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .lines{
   width: 2rem;
   height: 2rem;
