@@ -180,6 +180,8 @@ header{
 
 .show-menu .sidebar{
   right: 0;
+  z-index:1;
+
 }
 
 .menu{
@@ -637,7 +639,7 @@ footer{
 #link-topo{
   position: fixed;
   right: 3rem;
-  bottom: 3rem;
+  bottom: 5rem;
   width: 3rem;
   height: 3rem;
   background: #000000;  /* fallback for old browsers */
@@ -649,4 +651,5 @@ footer{
   color: #fff;
   border-radius: .3rem;
   box-shadow: 0 0 .1rem 0.6rem #00000009;
+  z-index:1;
 }
