@@ -8,4 +8,4 @@ https://uniswap-blockchain-2l3vgzcjy-diogo0602x.vercel.app/
 
 # Project Page
 
-![Portfolio](https://github.com/Diogo0602x/Portfolio/blob/main/assets/landing-page.PNG)
+![Portfolio](https://github.com/Diogo0602x/Portfolio/blob/main/assets/Landing-page.PNG)
